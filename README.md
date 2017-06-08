@@ -1,4 +1,8 @@
-Project was created by Udacity as part of their Deep Learning Nanodegree
+GANs are explored using tensorflow.
+
+Novel handwritten digits are produced after training on the MNIST dataset.
+
+Novel images of faces are generated after training the GAN on a celebrity photo dataset.
 
 
 References:
@@ -12,3 +16,5 @@ References:
   * [example 2](https://github.com/ArenaSource/dlnd-project5)
     * Read for comparison
 * [tensor flow documentation](https://www.tensorflow.org/)
+
+Note: Project created by Udacity as part of DLND
