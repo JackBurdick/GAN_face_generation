@@ -1,20 +1,21 @@
-GANs are explored using tensorflow.
+[//]: # (Image References)
+[image_mnist]: ./misc/GAN_MNIST.png
+[image_celeba]: ./misc/GAN_CELEBA.png
 
-Novel handwritten digits are produced after training on the MNIST dataset.
+# Generative Adversarial Network (GAN) implemented in TensorFlow
+GAN is created and explored on two data sets (MNIST and a celebrity photo data set) using TensorFlow.
 
-Novel images of faces are generated after training the GAN on a celebrity photo dataset.
+## Examples
+### Novel handwritten digits are produced after training on the MNIST data set.
+![GAN generated handwritten digits][image_mnist]
 
+### Novel images of faces are generated after training the GAN on a celebrity photo data set.
+![GAN generated celebrity faces][image_celeba]
 
-References:
-* [Udacity materials](https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101)
-  * Foundational materials
-  * Material from '4. Generative Adversarial Networks'
-* [slack channel](nd101.slack.com)
-  * Read answers to questions
-* Github repos
-  * [example 1](https://github.com/yahyadawson/DLND-project5)
-  * [example 2](https://github.com/ArenaSource/dlnd-project5)
-    * Read for comparison
+## Project Information
+The included [`./dlnd_face_generation.ipynb`](https://github.com/JackBurdick/GAN_face_generation/blob/master/dlnd_face_generation.ipynb) provides a commented walk though of the network generation and evaluation.
+
+#### References:
 * [tensor flow documentation](https://www.tensorflow.org/)
 
-Note: Project created by Udacity as part of DLND
+Note: Project created by Udacity as part of  [DLND](https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101)
